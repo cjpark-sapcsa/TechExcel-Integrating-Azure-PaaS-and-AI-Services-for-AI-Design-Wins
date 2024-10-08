@@ -66,5 +66,5 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'aidesignwindscj-dash'
+        app-name: 'utxzmzgrps27a-dash'
         images: utxzmzgrps27acosureg.azurecr.io/techexcel/csdash:${{github.run_number}}
