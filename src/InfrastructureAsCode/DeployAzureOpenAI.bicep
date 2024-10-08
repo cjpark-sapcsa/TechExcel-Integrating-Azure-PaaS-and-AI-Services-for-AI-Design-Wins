@@ -8,12 +8,12 @@ param restore bool = false
 param deployments array = [
   {
     name: 'gpt-4o'
-    capacity: 40
+    capacity: 20
     version: '2024-05-13'
   }
   {
     name: 'text-embedding-ada-002'
-    capacity: 120
+    capacity: 60
     version: '2'
   }
 ]

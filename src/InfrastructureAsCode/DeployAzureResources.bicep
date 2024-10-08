@@ -2,18 +2,18 @@
 param location string = resourceGroup().location
 
 @description('Password for the SQL Server admin user. PLEASE CHANGE THIS BEFORE DEPLOYMENT!')
-param sqlAdminPassword string = 'g@G9@2nD7C1BP%uh'
+param sqlAdminPassword string = 'WestBromFC1!'
 
 @description('Model deployments for OpenAI')
 param deployments array = [
   {
     name: 'gpt-4o'
-    capacity: 40
+    capacity: 20
     version: '2024-05-13'
   }
   {
     name: 'text-embedding-ada-002'
-    capacity: 120
+    capacity: 9
     version: '2'
   }
 ]
